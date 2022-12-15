@@ -1,0 +1,20 @@
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
+#div1 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+
+  animation: bounce 1s ease-in-out infinite alternate;
+}
